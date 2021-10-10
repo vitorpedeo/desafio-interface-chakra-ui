@@ -3,12 +3,15 @@ import { AppProps } from 'next/app';
 
 import { theme } from '../styles/theme';
 
+import { Header } from '../components/Header';
+
 import '@fontsource/barlow';
 import '@fontsource/poppins';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
+      <Header />
       <Component {...pageProps} />
     </ChakraProvider>
   );
