@@ -1,0 +1,318 @@
+{
+  "continents": [
+    {
+      "id": 1,
+      "name": "Europa",
+      "description": "O continente mais antigo",
+      "image": "https://source.unsplash.com/DpI-_wydgJM"
+    },
+    {
+      "id": 2,
+      "name": "América",
+      "description": "O Novo Mundo",
+      "image": "https://source.unsplash.com/8tTh9isJoos"
+    },
+    {
+      "id": 3,
+      "name": "Ásia",
+      "description": "O maior continente",
+      "image": "https://source.unsplash.com/N4DbvTUDikw"
+    },
+    {
+      "id": 4,
+      "name": "África",
+      "description": "A origem da humanidade",
+      "image": "https://source.unsplash.com/T-LfvX-7IVg"
+    },
+    {
+      "id": 5,
+      "name": "Oceania",
+      "description": "A união de várias ilhas",
+      "image": "https://source.unsplash.com/DpI-_wydgJM"
+    },
+    {
+      "id": 6,
+      "name": "Antártida",
+      "description": "O frio em seu estado natural",
+      "image": "https://source.unsplash.com/4ReskwNsh68"
+    }
+  ],
+    "continent_details": [
+      {
+        "continent": "europe",
+        "title": "Europa",
+        "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
+        "banner": "https://source.unsplash.com/iXqTqC-f6jI",
+        "countries_count": 50,
+        "languages_count": 60,
+        "most_visited_cities_count": 27,
+        "featured_cities": [
+          {
+            "id": 1,
+            "name": "Londres",
+            "image": "https://source.unsplash.com/UJiIuat1hZ0",
+            "country_name": "Reino Unido",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-United-Kingdom.png"
+          },
+          {
+            "id": 2,
+            "name": "Paris",
+            "image": "https://source.unsplash.com/UDyF0_Frxqs",
+            "country_name": "França",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-France.png"
+          },
+          {
+            "id": 3,
+            "name": "Roma",
+            "image": "https://source.unsplash.com/VFRTXGw1VjU",
+            "country_name": "Itália",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Italy.png"
+          },
+          {
+            "id": 4,
+            "name": "Praga",
+            "image": "https://source.unsplash.com/aDxmYZtYj7g",
+            "country_name": "República Tcheca",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Czech-Republic.png"
+          },
+          {
+            "id": 5,
+            "name": "Amsterdã",
+            "image": "https://source.unsplash.com/QRtym77B6xk",
+            "country_name": "Holanda",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Netherlands.png"
+          }
+        ]
+      },
+      {
+        "continent": "north_america",
+        "title": "América do Norte",
+        "description": "A América do Norte está localizada no extremo norte das Américas e é composta por apenas três países: Estados Unidos, Canadá e México, além de territórios de domínios europeus, como a Groelândia (pertencente ao Reino da Dinamarca, com representação no parlamento) e Bermudas (dependência britânica). Os dois primeiros países são os únicos do continente americano que estão inseridos no grupo dos países mais importantes político e economicamente, especialmente os Estados Unidos, que possuem a condição de maior potência mundial; já o México configura-se como um país em desenvolvimento, ou seja, emergente.",
+        "banner": "https://source.unsplash.com/1UN0YVHcIlU",
+        "countries_count": 3,
+        "languages_count": 6,
+        "most_visited_cities_count": 10,
+        "featured_cities": [
+          {
+            "id": 1,
+            "name": "Cidade de México",
+            "image": "https://source.unsplash.com/Ypeqfb-JkSs",
+            "country_name": "México",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Mexico.png"
+          },
+          {
+            "id": 2,
+            "name": "Nova Iorque",
+            "image": "https://source.unsplash.com/2f8SXXbP9nY",
+            "country_name": "Estados Unidos",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-United-States-of-America.png"
+          },
+          {
+            "id": 3,
+            "name": "Ottawa",
+            "image": "https://source.unsplash.com/ReUoz0CwfGo",
+            "country_name": "Canadá",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Canada.png"
+          },
+          {
+            "id": 4,
+            "name": "Las Vegas",
+            "image": "https://source.unsplash.com/9xjdQ8-zLKI",
+            "country_name": "Estados Unidos",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-United-States-of-America.png"
+          },
+          {
+            "id": 5,
+            "name": "Toronto",
+            "image": "https://source.unsplash.com/SYHsBaRDWBQ",
+            "country_name": "Canadá",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Canada.png"
+          }
+        ]
+      },
+      {
+        "continent": "south_america",
+        "title": "América do Sul",
+        "description": "A América do Sul está localizada em grande parte no hemisfério sul, na zona intertropical ocidental. A América do Sul abrange um território de 18 milhões de quilômetros quadrados e é banhada a leste pelo oceano Atlântico, a oeste pelo oceano Pacífico e ao norte pelo mar das Antilhas, conhecido como do Caribe.",
+        "banner": "https://source.unsplash.com/vkQgb1lZZPQ",
+        "countries_count": 12,
+        "languages_count": 9,
+        "most_visited_cities_count": 3,
+        "featured_cities": [
+          {
+            "id": 1,
+            "name": "São Paulo",
+            "image": "https://source.unsplash.com/UzN-d1g4moY",
+            "country_name": "Brasil",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Brazil.png"
+          },
+          {
+            "id": 2,
+            "name": "Buenos Aires",
+            "image": "https://source.unsplash.com/QhQ4WgX77G0",
+            "country_name": "Argentina",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Argentina.png"
+          },
+          {
+            "id": 3,
+            "name": "Santiago",
+            "image": "https://source.unsplash.com/nnW4ek9ip5s",
+            "country_name": "Chile",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Chile.png"
+          },
+          {
+            "id": 4,
+            "name": "Montevideo",
+            "image": "https://source.unsplash.com/B9YoUi7RYiE",
+            "country_name": "Uruguai",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Uruguay.png"
+          },
+          {
+            "id": 5,
+            "name": "Bogotá",
+            "image": "https://source.unsplash.com/cmo76qKvNaU",
+            "country_name": "Colômbia",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Colombia.png"
+          }
+        ]
+      },
+      {
+        "continent": "asia",
+        "title": "Ásia",
+        "description": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial. A Ásia faz fronteira no lado ocidental com a África e com a Europa, e no lado oriental com o oceano Pacífico, a Oceania e, em menor proporção, com a América do Norte, pelo Estreito de Bering.",
+        "banner": "https://source.unsplash.com/2s1chnvuMQ4",
+        "countries_count": 50,
+        "languages_count": 14,
+        "most_visited_cities_count": 49,
+        "featured_cities": [
+          {
+            "id": 1,
+            "name": "Tóquio",
+            "image": "https://source.unsplash.com/4HG5hlhmZg8",
+            "country_name": "Japão",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Japan.png"
+          },
+          {
+            "id": 2,
+            "name": "Pequim",
+            "image": "https://source.unsplash.com/OF8MM3_Glrc",
+            "country_name": "China",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-China.png"
+          },
+          {
+            "id": 3,
+            "name": "Nova Delhi",
+            "image": "https://source.unsplash.com/8fxHesizSZc",
+            "country_name": "Índia",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-India.png"
+          },
+          {
+            "id": 4,
+            "name": "Jacarta",
+            "image": "https://source.unsplash.com/_oeQmY1zcBE",
+            "country_name": "Indonésia",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Indonesia.png"
+          },
+          {
+            "id": 5,
+            "name": "Hanoi",
+            "image": "https://source.unsplash.com/niFWqrLdjlE",
+            "country_name": "Vietnã",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Vietnam.png"
+          }
+        ]
+      },
+      {
+        "continent": "africa",
+        "title": "África",
+        "description": "A África é o terceiro continente mais extenso (depois da Ásia e da América) com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra (atrás da Ásia) com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes",
+        "banner": "https://source.unsplash.com/NENohXmkXMM",
+        "countries_count": 54,
+        "languages_count": 7,
+        "most_visited_cities_count": 4,
+        "featured_cities": [
+          {
+            "id": 1,
+            "name": "Cidade do Cabo",
+            "image": "https://source.unsplash.com/1GgWbP74phY",
+            "country_name": "África do Sul",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-South-Africa.png"
+          },
+          {
+            "id": 2,
+            "name": "Cairo",
+            "image": "https://source.unsplash.com/ONVA6s03hg8",
+            "country_name": "Egito",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Egypt.png"
+          },
+          {
+            "id": 3,
+            "name": "Nairóbi",
+            "image": "https://source.unsplash.com/LTh5pGyvKAM",
+            "country_name": "Quênia",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Kenya.png"
+          },
+          {
+            "id": 4,
+            "name": "Lagos",
+            "image": "https://source.unsplash.com/67ruAEYmp4c",
+            "country_name": "Nigéria",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Nigeria.png"
+          },
+          {
+            "id": 5,
+            "name": "Dacar",
+            "image": "https://source.unsplash.com/RSYx20ezeUQ",
+            "country_name": "Senegal",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Senegal.png"
+          }
+        ]
+      },
+      {
+        "continent": "oceania",
+        "title": "Oceania",
+        "description": "A Oceania é um continente localizado a sudeste da Ásia, compreendendo um conjunto de ilhas somado à Austrália, essa última considerada como uma massa continental chamada de “Australásia”. Possui uma área total de 8.480.355 km², onde habitam aproximadamente 38 milhões de pessoas.",
+        "banner": "https://source.unsplash.com/EFTB4fZOt0Q",
+        "countries_count": 14,
+        "languages_count": 3,
+        "most_visited_cities_count": 3,
+        "featured_cities": [
+          {
+            "id": 1,
+            "name": "Auckland",
+            "image": "https://source.unsplash.com/x0NvSdPk404",
+            "country_name": "Nova Zelândia",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-New-Zealand.png"
+          },
+          {
+            "id": 2,
+            "name": "Sidney",
+            "image": "https://source.unsplash.com/7Zb7kUyQg1E",
+            "country_name": "Austrália",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Australia.png"
+          },
+          {
+            "id": 3,
+            "name": "Porto Moresby",
+            "image": "https://source.unsplash.com/oVLnxxHtuAg",
+            "country_name": "Papua-Nova Guiné",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Papua-New-Guinea.png"
+          },
+          {
+            "id": 4,
+            "name": "Melbourne",
+            "image": "https://source.unsplash.com/0IOuvwx0UO8",
+            "country_name": "Austrália",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Australia.png"
+          },
+          {
+            "id": 5,
+            "name": "Brisbane",
+            "image": "https://source.unsplash.com/RJII3O7CTeo",
+            "country_name": "Austrália",
+            "country_flag": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Australia.png"
+          }
+        ]
+      }
+    ]
+}
