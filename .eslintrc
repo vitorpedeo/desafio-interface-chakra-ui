@@ -5,6 +5,7 @@
     "plugin:prettier/recommended"
   ],
   "rules": {
+    "camelcase": "off",
     "react/jsx-props-no-spreading": "off",
     "import/prefer-default-export": "off",
     "react/jsx-no-bind": ["error", { "allowFunctions": true }],
