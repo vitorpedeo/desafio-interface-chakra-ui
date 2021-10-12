@@ -1,23 +1,15 @@
-import {
-  Box,
-  Flex,
-  Icon,
-  IconButton,
-  useBreakpointValue,
-} from '@chakra-ui/react';
+import { Box, Flex, Icon, IconButton } from '@chakra-ui/react';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { RiArrowLeftSLine } from 'react-icons/ri';
 
+import useIsMobile from '../hooks/useIsMobile';
+
 export function Header() {
   const { asPath, push } = useRouter();
-
   const isHomePath = asPath === '/';
 
-  const isMobile = useBreakpointValue({
-    base: true,
-    md: false,
-  });
+  const isMobile = useIsMobile();
 
   function navigateToHome() {
     push('/');

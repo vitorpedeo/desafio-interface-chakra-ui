@@ -1,40 +1,40 @@
 {
   "continents": [
     {
-      "id": 1,
+      "id": "europe",
       "name": "Europa",
       "description": "O continente mais antigo",
       "image": "https://source.unsplash.com/DpI-_wydgJM"
     },
     {
-      "id": 2,
-      "name": "América",
-      "description": "O Novo Mundo",
-      "image": "https://source.unsplash.com/8tTh9isJoos"
+      "id": "north_america",
+      "name": "América do Norte",
+      "description": "O novo mundo",
+      "image": "https://source.unsplash.com/EgWxUsZByFw"
     },
     {
-      "id": 3,
+      "id": "south_america",
+      "name": "América do Sul",
+      "description": "O ritmo latino",
+      "image": "https://source.unsplash.com/yam1KMv0SgQ"
+    },
+    {
+      "id": "asia",
       "name": "Ásia",
       "description": "O maior continente",
       "image": "https://source.unsplash.com/N4DbvTUDikw"
     },
     {
-      "id": 4,
+      "id": "africa",
       "name": "África",
       "description": "A origem da humanidade",
       "image": "https://source.unsplash.com/T-LfvX-7IVg"
     },
     {
-      "id": 5,
+      "id": "oceania",
       "name": "Oceania",
       "description": "A união de várias ilhas",
-      "image": "https://source.unsplash.com/DpI-_wydgJM"
-    },
-    {
-      "id": 6,
-      "name": "Antártida",
-      "description": "O frio em seu estado natural",
-      "image": "https://source.unsplash.com/4ReskwNsh68"
+      "image": "https://source.unsplash.com/jK9dT34TfuI"
     }
   ],
     "continent_details": [
